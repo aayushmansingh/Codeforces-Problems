@@ -1,3 +1,5 @@
+#Probem link: https://codeforces.com/problemset/problem/189/A
+
 import math
 n,a,b,c=map(int,input().split())
 ans=0
