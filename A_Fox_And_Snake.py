@@ -1,3 +1,5 @@
+#Problem Link: https://codeforces.com/problemset/problem/510/A
+
 r,c=map(int,input().split())
 for i in range(1,r+1):
     if i%2==1:
