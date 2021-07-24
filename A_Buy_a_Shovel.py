@@ -1,3 +1,5 @@
+#Problem Link: https://codeforces.com/problemset/problem/732/A
+
 n, k = map(int, input().split())
 c = 0
 prod = n
