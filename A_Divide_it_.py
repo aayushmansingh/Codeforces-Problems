@@ -1,3 +1,4 @@
+#Problem Link: https://codeforces.com/problemset/problem/1176/A
 q=int(input())
 for i in range(q):
     cnt2,cnt3,cnt5=0,0,0
