@@ -1,3 +1,6 @@
+#Problem Link: https://codeforces.com/problemset/problem/1371/A
+
+
 import math
 test = 1
 test = int(input())
