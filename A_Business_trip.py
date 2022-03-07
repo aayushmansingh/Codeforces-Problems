@@ -1,4 +1,3 @@
-#Problem Link: https://codeforces.com/contest/149/problem/A
 n = int(input())
 l = list(map(int, input().split()))
 l.sort(reverse=True)

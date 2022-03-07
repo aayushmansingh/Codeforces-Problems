@@ -1,5 +1,3 @@
-#Problem Link: https://codeforces.com/problemset/problem/749/A
-
 n=int(input())
 print(n//2)
 if n%2==0:

@@ -5,4 +5,9 @@ test = int(input())
 for tc in range((test)):
     # Write your code....
     n=int(input())
-    print(1+((n-1)//2))
+    l=list(map(int,input().split()))
+    s=sum(l)
+    if s<n:
+        print(1)
+    else:
+        print(s-n)

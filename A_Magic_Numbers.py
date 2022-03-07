@@ -1,5 +1,3 @@
-#Problem Link: https://codeforces.com/problemset/problem/320/A
-
 n=input()
 def bool(s):
     for i in range(len(s)):

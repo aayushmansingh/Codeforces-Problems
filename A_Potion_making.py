@@ -4,5 +4,5 @@ test = int(input())
 
 for tc in range((test)):
     # Write your code....
-    n=int(input())
-    print(1+((n-1)//2))
+    k = int(input())
+    print(100//math.gcd(k, 100-k))

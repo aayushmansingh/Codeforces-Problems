@@ -1,5 +1,3 @@
-#Problem Link: https://codeforces.com/problemset/problem/466/A 
-
 n, m, a, b = map(int, input().split())
 cost = 0
 if m * a <= b:

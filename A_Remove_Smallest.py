@@ -1,17 +1,12 @@
-import math
-test = 1
-test = int(input())
-
-for tc in range((test)):
-    # Write your code....
-    l=list(map(int,input().split()))
-    l.sort()
-    flag=1
-    for i in range(0,len(l)-1):
-        if abs(l[i]-l[i+1])<=1:
-            flag=1
+for i in range(int(input())):
+    n = input()
+    l = sorted(list(map(int, input().split())))
+    a = l[0]
+    for j in l[1::]:
+        if j == a or j == (a+1):
+            a = j
         else:
             print("NO")
-            exit()
-    if flag:
+            break
+    else:
         print("YES")

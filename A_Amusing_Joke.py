@@ -1,5 +1,3 @@
-#Problem Link: https://codeforces.com/problemset/problem/141/A
-
 guest=input()
 host=input()
 result=input()

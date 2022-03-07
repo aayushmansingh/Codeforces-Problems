@@ -1,7 +1,3 @@
-#Problem Link: https://codeforces.com/problemset/problem/1511/C
-
-
-
 n,q=map(int,input().split())
 lc=list(map(int,input().split()))
 queryno=list(map(int,input().split()))
